@@ -1,0 +1,11 @@
+appName: dotnet48
+
+namespace: default
+
+image:
+  name: us-central1-docker.pkg.dev/se-poc-347619/dotnetsample/dotnet48-app
+  tag:  latest
+
+service:
+  type: LoadBalancer
+  port: 80
